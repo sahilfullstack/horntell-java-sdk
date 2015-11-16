@@ -8,6 +8,31 @@
     <artifactId>horntell</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>Horntell Java SDK</name>
+    <description>Java SDK for Horntell APIs</description>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Devendra Tiwari</name>
+            <email>devendra@owlgrin.com</email>
+            <organization>Owlgrin</organization>
+            <organizationUrl>http://www.horntell.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:http://gitlab.owlgrin.com/devendra/horntell-java-sdk.git</connection>
+        <developerConnection>ssh://gitlab@gitlab.owlgrin.com:devendra/horntell-java-sdk.git</developerConnection>
+        <url>http://gitlab.owlgrin.com/devendra/horntell-java-sdk/tree/master</url>
+    </scm>
+
     <dependencies>
     <!-- GSON JSON mapper -->
     <dependency>
